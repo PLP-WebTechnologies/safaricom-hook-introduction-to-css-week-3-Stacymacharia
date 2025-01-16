@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .internal-style {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Main Heading with Internal CSS</h1>
+
+    <p>This paragraph uses internal CSS for styling.</p>
+
+    <div class="internal-style">
+        This div uses internal CSS for text color.
+    </div>
+
+    <p>This paragraph uses inline CSS:</p>
+    <p style="color: red;">This is styled using inline CSS.</p>
+
+    <a href="#">Hover over this link</a>
+
+</body>
+</html>
+/* External CSS File: style.css */
+
+/* Style body background color */
+body {
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Style links with hover effect */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
